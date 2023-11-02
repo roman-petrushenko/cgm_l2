@@ -9,8 +9,8 @@ while (True):
     if (c[0] == ""): 
         break
     else:
-       a.append(c[0])
-       b.append(c[1].replace("\n", ""))
+       a.append(int(c[0]))
+       b.append(int(c[1].replace("\n", "")))
 plt.figure(figsize = (960/100, 540/100))
 plt.plot(a,b)
 plt.xlabel("X")
